@@ -16,22 +16,22 @@ Day 4 is implemented and checked against the official sample. Drop your personal
 
 ## Run
 
-Python 3.10+ is enough. There are no extra packages.
+Python 3.10+ is enough. There are no extra packages. Use `python3` if `python` is not on your PATH.
 
 ```bash
 # Official examples
-python -m aoc2022 --example
-python -m aoc2022 --example 4
+python3 -m aoc2022 --example
+python3 -m aoc2022 --example 4
 
 # Personal inputs in inputs/dayXX.txt
-python -m aoc2022
-python -m aoc2022 1
+python3 -m aoc2022
+python3 -m aoc2022 1
 ```
 
 ## Test
 
 ```bash
-python -m unittest discover -s tests -v
+python3 -m unittest discover -s tests -v
 ```
 
 Tests cover the official samples, scoring helpers, and a regression against the original Colab answers for days 1–3.
